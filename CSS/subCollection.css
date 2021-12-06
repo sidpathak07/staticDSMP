@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap");
+.headerfont {
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.wrapper h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: Audiowide;
+}
+.img-area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.single-img {
+  padding: 0 20px 20px;
+}
+img:hover {
+  opacity: 0.5;
+  transition: 0.9s;
+}
+.image-resize {
+  height: 400px;
+  border-radius: 10px;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  object-fit: cover;
+}

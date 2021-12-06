@@ -1,0 +1,38 @@
+.container {
+    align-items: center;
+    float: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    height: 150vh;
+    margin: auto;
+}
+
+
+.image-resize {
+    height: 400px;
+    max-width: 100%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.discription {
+    font-family: 'Playfair Display', serif, cursive;
+    margin-top: -20px;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 15px;
+    text-align: center;
+}
+
+p {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+}

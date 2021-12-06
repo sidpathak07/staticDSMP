@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+.container {
+    position:absolute;
+    left: 0;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+   text-align: center;
+   object-fit: cover;
+    animation: animate 16s ease-in-out infinite;
+    background-size: cover;
+    background-position: center;
+}
+
+.details {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: bottom;
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        background-image: url(Wedding/6.jpg);
+    }
+
+    25% {
+        background-image: url(Wedding/8.JPG);
+    }
+
+    50% {
+        background-image: url(Wedding/3.JPG);
+    }
+
+    75% {
+        background-image: url(Wedding/7.JPG);
+    }
+
+    90% {
+        background-image: url(Wedding/6.JPG);
+    }
+
+
+
+}

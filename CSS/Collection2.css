@@ -1,0 +1,79 @@
+        .container {
+            position: absolute;
+            left: 0;
+            top: 20px;
+            width: 43%;
+            height: 66%;
+           text-align: center;
+           align-content: center;
+            justify-content: center;
+            object-fit: cover;
+            animation: animate 16s ease-in-out infinite;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px 100px / 120px;
+            margin-left: 25%;
+            margin-right: 25%;
+            box-shadow: 3px 3px red, -1em 0 .4em rgb(153, 211, 250);
+        }
+
+        .baimg
+        {
+            margin: 280px;
+        }
+        .image-resize{
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            text-align: center;
+            border-radius: 20px;
+            justify-content: center;
+            object-fit: cover ;
+        }
+
+
+        @keyframes animate {
+
+            0%,
+            100% {
+                background-image: url(Wedding/02.jpg);
+            }
+
+            25% {
+                background-image: url(Wedding/4.jpg);
+            }
+
+            50% {
+                background-image: url(Wedding/8.jpg);
+            }
+
+            75% {
+                background-image: url(Wedding/10.jpg);
+            }
+
+            90% {
+                background-image: url(Wedding/7.jpg);
+            }
+
+        }
+
+        .discription {
+            font-family: 'Playfair Display', serif, cursive;
+            
+            font-weight: bold;
+            padding: 15px;
+            font-size: 30px;
+            text-align: center;
+        }
+        .details {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: bottom;
+        }
+
+        section{
+            margin-bottom: 70px;
+        }
+    
